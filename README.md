@@ -36,6 +36,10 @@ I cannot at this time provide a repository for the raw data.
 * Are certain crimes or behaviors being willfully ignored by the judiciary or media?
 * Are there certain crimes that are unprosecutable?
 
+## The Notion of "Conspiracy"
+
+My personal feeling is that this word is too vague.  I would rather avoid it as it brings unsophisticated attention.
+
 # Tools
 
 It is important to develop a case management tool.  There are several on the market currently.  This tools should satisfy:
@@ -58,4 +62,14 @@ Raw documents should be stored in a document store such as Solr, MongoDB or, if 
 
 Clearly, it is very important to respect the privacy of victims.  The current design is not considering a "crime reporting" tool, but rather a media or news collection tool.  We could revisit this assumption, of course.
 
-Thus anonymity may be enforced at one of two levels.  First, the media may not report the names or identities of the victims.  Second, the hosting application may manually redact all names of potential victims.  In that latter case, an internal entity ID is easy to construct, but must be human curated.  
+Thus anonymity may be enforced at one of two levels.  First, the media may not report the names or identities of the victims.  Second, the hosting application may manually redact all names of potential victims.  In that latter case, an internal entity ID is easy to construct, but must be human curated. 
+
+For the purposes of prosecution, any redacted names should be recorded (perhaps offline) but not displayed publically.  This will also be important in building social networks later.
+
+# Anonymity of the Accused
+
+The accused should also enjoy full judicial process. Witch hunts hurt everyone.
+
+# Why A Secondary Database?
+
+For the same reason we need the ACLU and the Southern Povery Law Center, it is the way democracy works. 
